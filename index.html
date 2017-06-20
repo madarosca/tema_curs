@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>DEMO</title>
+  <link rel="shortcut icon" href="favicon.ico">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./libs/style.css">
+  <link rel="stylesheet" href="./libs/bootstrap.min.css">
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <!-- Font awesome -->
+  <link rel="stylesheet" href="./libs/font-awesome.min.css">
+  <!-- jQuery -->
+  <script src="./libs/jquery.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="./libs/bootstrap.min.js"></script>
+  <script src="./libs/default.js"></script>
+</head>
+<body>
+<div class="container-fluid" id="home">
+	<div class="row" id="header">
+	  	<nav class="navbar navbar-default reset_paddings col-lg-9 col-lg-offset-3 col-md-10 col-md-offset-1 col-sm-12 col-xs-12" id="nav">
+		  	<div class="container-fluid">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			    </div>
+			    <!-- Collect the nav links, forms, and other content for toggling -->
+			    <div class="collapse navbar-collapse" id="navbar">
+			      <ul class="nav navbar-nav menu-list list-inline">
+			        <li class="menu-item text-center"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+			        <li class="menu-item text-center"><a href="apartment.html">Our Apartment</a></li>
+			  		<li class="menu-item text-center"><a href="posts.html">Rio</a></li>
+			  		<li class="menu-item  text-center"><a href="#">Contact</a></li>
+			  		<li id="menu-item-separator"></li>
+			  		<li class="menu-item text-center"><a href="#"><strong>Book</strong></a></li>
+			      </ul>
+			    </div><!-- /.navbar-collapse -->
+			</div><!-- /.container-fluid -->
+	  	</nav>
+		<div class="headline col-md-12">
+		  	<h3 class="text-center"><i class="fa fa-smile-o" aria-hidden="true"></i> BE MY GUEST</h3>
+		 	<h1 class="text-center">Welcome to Rio!</h1>
+		</div>
+  	</div>
+  	<div class="clearfix"></div>
+  	<div class="row" id="container">
+		<div id="post_top" class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12">
+		  	<div class="search_form">
+		  		<div class="row">
+			  		<form class="col-md-12">
+						<div class="form-group col-md-3 col-sm-3 col-xs-12">
+							<label for="check-in">Check-in</label>
+							<input type="text" class="form-control" id="datepicker_in" name="datepicker_in">
+							<i class="fa fa-calendar" aria-hidden="true"></i>
+						</div>
+						<div class="form-group col-md-3 col-sm-3 col-xs-12">
+						    <label for="check-out">Check-out</label>
+						    <input type="text" class="form-control" id="datepicker_out" name="datepicker_out">
+						    <i class="fa fa-calendar" aria-hidden="true"></i>
+						</div>
+						<div class="form-group col-md-2 col-sm-2 col-xs-12">
+						    <label for="adults">Adults</label>
+						    <input type="number" class="form-control" id="adults" min="1" value="1" name="adults">
+						</div>
+						<div class="form-group col-md-2 col-sm-2 col-xs-12">
+						    <label for="kids">Kids</label>
+						    <input type="number" class="form-control" id="kids" min="1" value="1" name="kids">
+						</div>
+						<div class="form-btn col-md-2 col-sm-2 col-xs-12">
+							<button class="btn btn-primary btn-custom-size" onclick="showValues()" id="search_btn">Search</button>
+						</div>
+					</form>
+				</div>
+		  	</div>
+		  	<div class="container_header">
+		  		<h2 class="text-center text-grey">A Home in the Heart of the City</h2>
+		  		<div class="separator_orange_center"></div>
+		  		<p class="text-center text-grey">Stay in a beautiful highrise in Ipanema just off the beach close to many world-class cafes and restaurants. Enjoy Bossa Nova with a cold beer!</p>
+		  	</div>
+		  	<div class="section_top row">
+	  		<div class="section_text_blue col-md-4 col-sm-4 col-xs-12">
+	  			<p class="text-center paragraph_lg">Our Apartment</p>
+	  			<div class="separator_orange_center"></div>
+	  		</div>
+	  		<div class="img_wide reset_paddings col-md-8 col-sm-8 col-xs-8"><img src="assets/sec_1_img_wide.jpg" id="img_wide"></div>
+		  	<div class="img_small reset_paddings col-md-4 col-sm-4 col-xs-4"><img src="assets/sec_1_img_small.jpg" id="img_small"></div>
+		  		<div class="section_text_top text-grey reset_paddings text-justify col-md-8 col-sm-8 col-xs-12">
+		  			<p>The apartment is spacious with high ceilings, large windows, an open balcony and a beautiful view of the beach. Stay cool with central A/C and wind-down comfortably in the queen sized bedroom.</p>
+		  			<div><a href="#">BOOK NOW</a></div>
+		  		</div>
+			</div>
+		</div>
+		<div id="post_middle" class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12">
+			<div class="section_middle row">
+			  		<div class="img_wide reset_paddings col-md-8 col-sm-8 col-xs-12"><img src="assets/sec_2_img_wide.jpg" id="img_wide"></div>
+			  		<div class="section_text_blue col-md-4 col-sm-4 col-xs-12">
+			  			<p class="text-center paragraph_lg">Location</p>
+			  			<div class="separator_orange_center"></div>
+			  		</div>
+				  		<div class="text-grey text-center col-md-12 col-sm-12 col-xs-12">
+				  			<p class="section_text_middle">Conveniently located just opposite Leblon Beach in Ipanema, our apartment will sweep you into the charm and excitements of Rio! Dine at one of our neighborhood’s many world-renowned restaurants, enjoy fresh-squeezed juices from one of the colourful stalls along the beach, and don’t miss live bossy-nova show in one of the local bars.</p>
+				  		<div>
+				  			<div id="toggle_map" class="text-center">VIEW MAP</div>
+				  		</div>
+				  		<div class="reset_paddings col-lg-3 col-md-3 col-sm-12 col-xs-12" id="googleMap"></div>
+			  		</div>
+			</div>
+		  	<div class="section_bottom row">
+		  		<div class="img_small reset_paddings col-lg-4 col-md-4 col-sm-4 col-xs-5"><img src="assets/sec_3_img_small.jpg" id="img_small"></div>
+		  		<div class="section_text_blue col-lg-8 col-md-8 col-sm-8 col-xs-12" id="section_text_padding">
+		  			<p class="text-justify paragraph_lg_interior">About Camila &amp; Tiago</p>
+		  			<div class="separator_orange_left"></div>
+		  			<p class="section_text_bottom text-justify text-white">Hi, my name is Camila and I’m a nutritionist from the south of Brazil. I moved to the beautiful Ipanema neighborhood two years ago with my husband, Tiago. We live in a homie highrise just off the Leblon Beach, but in the summer we travel!</p>
+		  			<div><a href="#">STAY WITH US &nbsp;&nbsp;&nbsp;></a></div>
+		  		</div>
+		  	</div>
+	  	</div>
+	</div>
+	<div class="clearfix"></div>
+	<div id="scroll_to_top" data-toggle="tooltip" data-placement="left" title="Scroll to top">
+		<a href="#header"><i class="fa fa-angle-double-up"></i></a>
+	</div><!-- scroll to top button -->
+	<div class="row" id="footer">
+		<div class="reset_paddings col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12">
+		  	<div class="footer_item reset_paddings col-md-5 col-sm-5 col-xs-12">
+		  		<p class="footer_header">Contact us</p>
+		  		<div class="separator_orange_left"></div>
+		  		<div class="email_us">
+			  		<p>Ask us anything!<br>We’re here to answer any questions you have.</p>
+			  		<p>Email: <a href="mailto:info@mysite.com">info@mysite.com</a></p>
+			  	</div>
+		  	</div>
+		  	<div class="footer_item reset_paddings col-md-3 col-sm-3 col-xs-12">
+		  		<p class="footer_header">Follow us</p>
+		  		<div class="separator_orange_left"></div>
+		  		<div class="social_media">
+		  			<i class="fa fa-tripadvisor" aria-hidden="true"></i>&nbsp;
+		  			<i class="fa fa-facebook" aria-hidden="true"></i>&nbsp;
+		  			<i class="fa fa-instagram" aria-hidden="true"></i>
+		  		</div>
+		  	</div>
+		  	<div class="footer_item reset_paddings col-md-4 col-sm-4 col-xs-12">
+		  		<p class="footer_header">Subscribe for Updates Offers</p>
+		  		<div class="separator_orange_left"></div>
+		  		<div class="footer_form">
+		  			<form class="subscribe_form">
+						<div class="form-group">
+							<input type="email" class="form-control" id="email" placeholder="Email Address">
+						</div>
+						<div>
+							<button type="submit" class="btn btn-info btn-custom-size" id="btn_subscribe">Subscribe now</button>
+						</div>
+					</form>
+		  		</div>
+		  	</div>
+	  	</div>
+	</div>
+</div>
+</body>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCWyRD0Q3zs7cTHz4WwzDL_1WGXXeDlp8s&callback=myMap"></script>
+</html>

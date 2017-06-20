@@ -1,0 +1,37 @@
+/*custom header*/
+#home .headline h1 {
+	color: #e4d500;
+    margin-left: -1850px;
+}
+
+#home .headline h3 {
+    margin-top: -240px;
+}
+
+/*header animation*/
+/*#home .headline h1 {
+	color: #e4d500;
+    animation-name: home_header_animation;
+    animation-duration: 4s;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}*/
+
+#home #googleMap {
+	position: absolute;
+	visibility: hidden;
+}
+
+.customColor {
+    color: white !important;
+    font-size: 60px !important;
+    background: red;
+}
+
+.fa-calendar {
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 165px;
+}

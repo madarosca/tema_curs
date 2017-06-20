@@ -1,0 +1,16 @@
+@media (min-width: 768px) and (max-width: 1600px) {
+	.paragraph_lg {
+		padding-top: 40%;
+	}
+	
+}
+
+@media (min-width: 768px) and (max-width: 1460px) {
+	.paragraph_lg {
+		padding-top: 40%;
+	}
+	#apartments .property_info {
+		padding-top: 0px;
+	    margin-top: -20px;
+	}
+}

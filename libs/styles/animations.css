@@ -1,0 +1,12 @@
+@keyframes home_header_animation {
+    0%   {color:red; bottom:0px; top:0px;}
+    25%  {color:yellow; bottom:100px; top:0px;}
+    50%  {color:blue; bottom:100px; top:100px;}
+    75%  {color:green; bottom:0px; top:100px;}
+    100% {color:red; bottom:0px; top:0px;}
+}
+
+@keyframes ap_header_animation {
+    from {color: #00e200;}
+    to {color: red;}
+}

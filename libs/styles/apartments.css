@@ -1,0 +1,67 @@
+/*custom header*/
+#apartments .headline h1 {
+	color: #00e200;
+	margin-left: -1850px;
+}
+
+#apartments .headline h3 {
+	margin-top: -240px;
+}
+
+#apartments #header {
+	height: 600px;
+	background: transparent;
+}
+
+/*header animation*/
+/*#apartments .headline h1 {
+	color: #00e200;
+    animation-name: ap_header_animation;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}*/
+
+/*custom content*/
+#apartments {
+	background: url(../../assets/rio-de-janeiro-apartments.jpg);
+	background-size: cover;
+    background-attachment: fixed;
+}
+
+#apartments .image_slide {
+	border: 1px solid #337ab7;
+}
+
+#apartments #post_top {
+	padding-bottom: 15px;
+}
+
+#apartments hr {
+	background: #d7e2e6;
+    height: 1px;
+    margin: 10px 10px 20px 15px;
+}
+
+#fixed_form {
+	padding: 15px;
+	top: 80px;
+    position: sticky;
+	border: 1px solid #d4d0d0;
+	width: 30%;
+	margin-left: 2.5%;
+}
+
+#apartments .property_info {
+	padding-top: 20px;
+}
+
+#apartments .larger_text {
+	font-size: 1.3em;
+}
+
+/*custom footer*/
+#apartments #footer {
+	background: #d7e2e6;
+	padding: 50px 0 50px 0;
+	margin-top: -80px;
+}

@@ -1,0 +1,9 @@
+@import "./styles/fonts.css";
+@import "./styles/global.css";
+@import "./styles/home.css";
+@import "./styles/apartments.css";
+@import "./styles/posts.css";
+@import "./styles/animations.css";
+@import "./styles/responsive-max-368px.css";
+@import "./styles/responsive-max-768px.css";
+@import "./styles/responsive-max-1600px.css";

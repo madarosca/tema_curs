@@ -1,0 +1,103 @@
+@media (min-width: 368px) and (max-width: 768px) {
+
+	/*background*/
+	#home {
+    	background: #fff;
+	}
+
+	/*common navbar*/
+	#nav .navbar-collapse {
+		background-color: rgba(149, 165, 192, 0.48);
+	}
+
+	#menu-item-separator {
+		display: none;
+	}
+
+	#nav .menu-list .menu-item {
+		padding-right: 0;
+	}
+
+	/*header*/
+	#home #header {
+		height: 500px;
+	}
+
+	#apartments #header {
+		height: 500px;
+	}
+
+	/*fixed form*/
+	#fixed_form {
+		width: 100%;
+		top: 10px;
+		bottom: 10px;
+	    position: relative;
+	    margin-left: 0;
+	}
+
+	/*blue boxes*/
+	.paragraph_lg {
+		padding-top: 50px;
+	}
+
+	.section_text_blue {
+		height: 100%;
+    	padding-bottom: 50px;
+	}
+
+	#section_text_padding {
+		height: 100%;
+	}
+
+	.section_text_top {
+		margin-bottom: 40px;
+	}
+
+	/*wide images*/
+	#home img {
+		display: none;
+	}
+
+	#post_top {
+		top: 0;
+	}
+
+	#apartments .property_info {
+		margin-top: 50px;
+	}
+
+	/*footer*/
+	.footer_item {
+		padding-bottom: 40px;
+	}
+
+	#home #footer {
+		margin-top: 0;
+		margin-bottom: 0;
+		background: #d7e2e6;
+		padding: 50px 10px 20px 10px;
+	}
+
+	#apartments #footer {
+		margin-top: 0;
+		margin-bottom: 0;
+		padding: 50px 10px 20px 10px;
+	}
+
+	#posts #footer {
+		margin-top: 0;
+		margin-bottom: 0;
+		padding: 50px 10px 20px 10px;
+	}
+
+	#scroll_to_top {
+		z-index: 1;
+	}
+}
+
+@media screen and (max-width: 500px) {
+  #posts #scroll_to_top + .tooltip {
+  display: none !important;
+  }
+}

@@ -1,0 +1,135 @@
+#users div {
+  opacity: 0.25;
+}
+
+/*custom header*/
+#posts .headline h1 {
+	color: blue;
+}
+
+#h3_from_top {
+  margin-top: -240px;
+}
+
+#h1_from_left {
+  margin-left: -1850px;
+}
+
+#posts #header {
+	height: 600px;
+	background: transparent;
+}
+
+#posts {
+	background: url(../../assets/Konokono-Beach-Sunset.jpg);
+	background-size: cover;
+  background-attachment: fixed;
+}
+
+#posts .menu-item a {
+  cursor: pointer;
+}
+
+#posts .posts_content {
+  padding-top: 30px;
+}
+
+/*custom footer*/
+#posts #footer {
+	background: #d7e2e6;
+	padding: 50px 0 50px 0;
+	margin-top: -80px;
+}
+
+/*users styles*/
+#users h3 {
+	color: green;
+}
+
+#users label {
+	font-size: 16px;
+}
+
+#users_table .users_td {
+	background-color: #d9dfe4;
+}
+
+/* Scroll to top button */
+#scroll_to_top {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 45px;
+  height: 45px;
+  background-color: #3a8fb7 !important;
+  opacity: 0.7;
+  box-shadow: -2px -2px 5px 0px #e2e2e2;
+}
+
+#posts #scroll_to_top:hover {
+  opacity: 1;
+}
+
+#posts #scroll_to_top i {
+  color: #fff;
+  font-size: 35px;
+  padding-left: 11px;
+  padding-top: 5px;
+}
+
+#posts #scroll_to_top + .tooltip > .tooltip-inner {
+  background-color: #3a8fb7 !important;
+  opacity: 0.9;
+}
+
+#posts #scroll_to_top + .tooltip.left > .tooltip-arrow {
+  border-left: 5px solid #3a8fb7 !important;
+  opacity: 0.9;
+}
+
+@media screen and (max-width: 500px) {
+  #posts #scroll_to_top + .tooltip {
+  display: none !important;
+  }
+}
+
+/*Scroll to bottom button */
+#posts .scroll_down {
+  text-align: center;
+  padding: 10px 10px 10px 0;
+}
+
+#posts .scroll_down a {
+  text-decoration: none;
+}
+
+#posts #scroll-icon {
+  font-size: 30px;
+  color: #0853da;
+  margin-top: 20px;
+  text-shadow: none;
+}
+
+#posts #scroll-icon:hover {
+  color: #000151;
+}
+
+#posts #scroll-text {
+  display: none;
+  color: #070782;
+  position: relative;
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 1em;
+  font-weight: 700;
+  text-shadow: none;
+  }
+}
+
+#posts .div_left {
+	text-align: left;
+}
+
+#posts .div_right {
+	text-align: right;
+}
